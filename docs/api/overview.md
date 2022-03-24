@@ -4,33 +4,32 @@ title: NEAR APIs
 sidebar_label: Overview
 ---
 
-Take a look at the different available APIs to help you build amazing apps on NEAR.
+查看这些可用的APIS可以帮助您在 NEAR 上构建出色应用。
 
 ## RPC API {#rpc-api}
 
-[NEAR RPC API](/docs/api/rpc) provides a simple JSON RPC 2.0 API to interact with the NEAR blockchain.
+[NEAR RPC API](/docs/api/rpc) 提供了一个简单的 JSON RPC 2.0 API 来与 NEAR 区块链交互
 
-| API | Description |
+| API | 介绍 |
 |-----|-------------|
-| [Access Keys](/docs/api/rpc/access-keys) | Retrieve information about an account's access keys. |
-| [Accounts / Contracts](/docs/api/rpc/contracts) | View details about accounts and contracts as well as perform contract calls. |
-| [Block / Chunk](/docs/api/rpc/block-chunk) | Query the network and get details about specific blocks or chunks. |
-| [Gas](/docs/api/rpc/gas) | Get gas price for a specific block or hash. |
-| [Protocol](/docs/api/rpc/protocol) | Retrieve current genesis and protocol configuration. |
-| [Network](/docs/api/rpc/network) | Return status information for nodes and validators. |
-| [Transactions](/docs/api/rpc/transactions) | Send transactions and query their status. |
-| [Sandbox](/docs/api/rpc/sandbox) | Patch state on a local sandbox node. |
+| [Access Keys](/docs/api/rpc/access-keys) | 检索有关帐户访问密钥的信息。 |
+| [Accounts / Contracts](/docs/api/rpc/contracts) | 查看有关帐户和合约的详细信息可以更好的履行合约调用。|
+| [Block / Chunk](/docs/api/rpc/block-chunk) | 查询网络并获取有关特定块或块的详细信息。|
+| [Gas](/docs/api/rpc/gas) | 获取特定区块或哈希的 gas 价格。 |
+| [Protocol](/docs/api/rpc/protocol) | 检索当前的起源和协议配置。|
+| [Network](/docs/api/rpc/network) | 返回节点和验证器的状态信息。 |
+| [Transactions](/docs/api/rpc/transactions) | 发送交易并查询其状态。 |
+| [Sandbox](/docs/api/rpc/sandbox) | 本地沙盒节点上的补丁状态。 |
 
-> **Tip:** You can access the JSON RPC 2.0 endpoints using [Postman](/docs/api/rpc#postman-setup),
-> [JavaScript](/docs/api/rpc#javascript-setup), and [HTTPie](/docs/api/rpc#httpie-setup).
+> **Tip:** 您可以使用 [Postman](/docs/api/rpc#postman-setup), [JavaScript](/docs/api/rpc#javascript-setup), and [HTTPie](/docs/api/rpc#httpie-setup)访问 JSON RPC 2.0 端点
+> .
 
 ## REST Server {#rest-server}
 
-[NEAR REST API Server](/docs/api/rest-server/overview) is a project that allows you create your own simple
-REST API server that interacts with the NEAR blockchain.
+[NEAR REST API Server](/docs/api/rest-server/overview) 是一个允许您创建自己的与 NEAR 区块链交互的简单 REST API 服务器的项目。
 
-| Route                                      | Description                                                                                                                 |
+| 链接                                     | 介绍                                                                                                                 |
 | ------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------- |
-| [CONTRACTS](/docs/api/rest-server/contracts)                              |  Deploy, view, and call smart contracts on NEAR.         |
-| [UTILS](/docs/api/rest-server/utils)                                  |    Init accounts, create sub-accounts, and view key pairs.                                                 |
-| [NFTs](/docs/api/rest-server/nfts)                            |        Mint, view, and transfer NFTs.                                       |
+| [CONTRACTS](/docs/api/rest-server/contracts)                              |  在 NEAR 上部署、查看和调用智能合约。    |
+| [UTILS](/docs/api/rest-server/utils)                                  |    初始化账户，创建子账户，查看密钥对。                                |
+| [NFTs](/docs/api/rest-server/nfts)                            |        铸造、查看和转移 NFT。                                  |
